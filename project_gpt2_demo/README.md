@@ -1,0 +1,1 @@
+python generate.py --model_path /path/to/gpt2_model --search top_kp
