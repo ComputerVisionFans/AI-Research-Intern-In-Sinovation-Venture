@@ -1,6 +1,15 @@
 # AI-Research-Intern-In-Sinovation-Venture
 
-Sinovation Ventures (创新工场) was founded in September 2009 by Dr. Kai-Fu Lee (previously head of Google China and founder of Microsoft Research Asia) with the purpose of galvanizing a new era of successful Chinese entrepreneurs. We are a truly differentiated early stage venture capital fund with $1.2 billion in assets under management, in both USD and RMB funds. As a top domestic China entrepreneurship platform, we work closely with our founders; we provide not just venture financing, but also value-added professional services, including in areas such as UI/UX design, product, marketing, recruiting, legal, government relations, and finance, thereby helping start-up companies grow rapidly in their first couple of years of operation.
+Sinovation Ventures (创新工场) was founded in September 2009 by Dr. Kai-Fu Lee (previously head of Google China and founder of Microsoft Research Asia) with the purpose of galvanizing a new era of successful Chinese entrepreneurs. 
+![alt text](https://www.google.com/search?q=sinovation+ventures+logo&tbm=isch&ved=2ahUKEwirnd2t6KftAhUOPewKHR6JAdMQ2-cCegQIABAA&oq=sinovation+ventures+&gs_lcp=CgNpbWcQARgAMgIIADIECAAQHjIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGDIECAAQGFCsrgFYrK4BYJbFAWgAcAB4AIAByAGIAcgBkgEDMi0xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=K5zDX-vbII76sAeekoaYDQ&bih=770&biw=1368&client=firefox-b-d#imgrc=g5nqXf3oSR7cMM)
+
+
+Sinovation Ventures (创新工场) are a truly differentiated early stage venture capital fund with $1.2 billion in assets under management, in both USD and RMB funds. As a top domestic China entrepreneurship platform, works closely with founders; provides not just venture financing, but also value-added professional services, including in areas such as UI/UX design, product, marketing, recruiting, legal, government relations, and finance, thereby helping start-up companies grow rapidly in their first couple of years of operation.
+
+
+
+
+
 
 On this AI leading Intern I am responsible for:
 
