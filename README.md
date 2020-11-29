@@ -3,7 +3,7 @@
 
 
 <p align="right">
-  <img src="https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/project_gpt2_demo/img/logo.png" width="200" alt="Sinovation Ventures">
+  
   <img src="https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/project_gpt2_demo/img/AI%20institute.png" width="200" alt="Sinovation Ventures AI Institute">
 Sinovation Ventures (创新工场) was founded in September 2009 by Dr. Kai-Fu Lee (previously head of Google China and founder of Microsoft Research Asia) with the purpose of galvanizing a new era of successful Chinese entrepreneurs. 
 </p>
