@@ -1,10 +1,10 @@
 # AI-Research-Intern-In-Sinovation-Venture
 
-Sinovation Ventures (创新工场) was founded in September 2009 by Dr. Kai-Fu Lee (previously head of Google China and founder of Microsoft Research Asia) with the purpose of galvanizing a new era of successful Chinese entrepreneurs. 
 
-<p align="center">
-  
+
+<p align="right">
   <img src="https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/Img/SV%20logo.png" width="200" alt="Sinovation Ventures">
+Sinovation Ventures (创新工场) was founded in September 2009 by Dr. Kai-Fu Lee (previously head of Google China and founder of Microsoft Research Asia) with the purpose of galvanizing a new era of successful Chinese entrepreneurs. 
 </p>
 
 ![alt text]()
