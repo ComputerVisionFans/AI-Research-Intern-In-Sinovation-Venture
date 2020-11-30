@@ -1,4 +1,4 @@
-# AI-Research-Intern-In-Sinovation-Venture
+# AI Research Intern In Sinovation Venture
 
 <p align="center">
   
