@@ -58,3 +58,7 @@ be posted to the frontend through API. The GPT-generated slogan is highly innova
   
 </p>
 
+## Dataset filtering and how to finetune customer dataset 
+I also provide here the code for finetuning your own dataset and give some good website for NLP dataset.
+
+**[[GPT-2 writing novel @ Qiang](https://drive.google.com/file/d/12jjrd8-EycdljEzp2q5J2xEsFbmis8rs/view?usp=sharing)] [[how to finetune on your dataset](https://colab.research.google.com/drive/1MxgTJ4hRt4k7SkKB5nblrIm5i_cMGjWB?usp=sharing)] [[how to make you own dataset](https://drive.google.com/file/d/1UUdJTBOI18qEZNIzGF_7rNb52SBJ4TOn/view?usp=sharing)]** <br />
