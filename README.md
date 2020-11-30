@@ -20,7 +20,7 @@ On this AI leading Intern I am responsible for:
 
 -Aiming at the research on the countermeasures of artificial intelligence algorithms, realize and evaluate the performance of state-of-the-art algorithms on text data, and design corresponding improvements and preliminary software models.
 
-## GPT enabling AUto-Email Reply 
+## GPT enable Auto-Email Reply 
 Inspired by the OpenAI GPT-3 API and OthersideAI .Inc, I developed this Chinese version Auto Email Replier, which is capable of generating specific Emails based on given domain, such as meeting invitation, public speech, interview invitation and office daily communication. By receiving three user
 inputs: Email recipient, Email subject and Key points, it uses the NLP GPT-2 model initially trained on 3
 million Chinese News and Poetry Dataset. It has around 736 ,744 ,960 parameters , 
@@ -44,3 +44,17 @@ used for sentence grammar check.
 <p align="center">
   <img src="https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/project_gpt2_demo/4%20E-mail%20Auto-Replier%20powered%20by%20GPT-2.png" width="800" alt="auto Email reply @Sinovation_Venture">
 </p>
+
+## GPT enable Commercial Slogans Generation 
+This commercial slogan app can automatically generate commercial statements using fine-tune GPT-2 model based on
+user given input such as product, brand name and keyword*optional. I trained this model from the previous initial GPT-2
+model, including forming a fine-tuning dataset and performing the data processing work. The model will analyze the
+user's input and determine associated user action through information extraction and classification. The output will then
+be posted to the frontend through API. The GPT-generated slogan is highly innovative and inspiring.
+
+<p align="center">
+  
+  <img src="https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/project_gpt2_demo/5%20Commercial%20Slogans%20powered%20by%20GPT-2.png" width="800" alt="GPT2-Slogan @Sinovation_Venture">
+  
+</p>
+
