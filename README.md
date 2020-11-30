@@ -12,7 +12,7 @@ Sinovation Ventures (创新工场) are a truly differentiated early stage ventur
 # Author List 
 [Qiang Li](https://www.linkedin.com/in/qiang-li-166362143/)\*, [Xinyu Bai](https://www.linkedin.com/in/xinyu-bai-8b495b180/)\*, [Qiyi Ye Bai](https://www.linkedin.com/in/qiyi-ye-36703018/)\*  <br />
 
-**[[GPT-3 Research Report](https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/Technical%20report%20on%20GPT-3%20and%20its%20applied%20Business%20Scenario.pdf)] [[5 GPT-Chinese Application Video](https://drive.google.com/open?id=1V-VDtiOJv1WI5jVSQZqpj-6AKPFUBexX)] [[API Page]()]** <br />
+**[[GPT-3 Research Report](https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/Technical%20report%20on%20GPT-3%20and%20its%20applied%20Business%20Scenario.pdf)] [[5 GPT-Chinese Application Video](https://drive.google.com/drive/folders/1Z17fDHR51ICJTBcGROu9beGm03_tAqur?usp=sharing)] [[API Page](https://10.18.103.82/model/)]** <br />
 
 On this AI leading Intern I am responsible for:
 
