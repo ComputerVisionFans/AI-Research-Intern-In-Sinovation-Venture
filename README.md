@@ -84,7 +84,7 @@ model.num_parameters()
 
 ```
 
-### Training email base model
+### Training Email based model
 - [Setup](#environment-setup) your environment
 - From the experiment directory, run
 ```
@@ -102,7 +102,7 @@ pip install requirement.txt
 
 ```
 
-### Training solagn model
+### Training Slogan model
 - [Setup](#environment-setup) your environment
 - In the experiment file, train with the pretrained  model
 ```
@@ -122,7 +122,7 @@ model.num_parameters()
 - Sogan dataset contain around 3,000 wellknown slogans from TV programs and I did manully check and filtering.
 
 
-### Training with bert based model (*unofficial*)
+### Training with Bert based model (*unofficial*)
 - [Setup](#environment-setup) your environment
 - From the experiment directory, run
 
