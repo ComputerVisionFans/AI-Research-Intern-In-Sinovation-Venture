@@ -63,4 +63,104 @@ I also provide here the code for finetuning your own dataset and give some good 
 
 **[[GPT-2 writing novel @ Qiang](https://drive.google.com/file/d/12jjrd8-EycdljEzp2q5J2xEsFbmis8rs/view?usp=sharing)] [[how to finetune on your dataset](https://colab.research.google.com/drive/1MxgTJ4hRt4k7SkKB5nblrIm5i_cMGjWB?usp=sharing)] [[how to make you own dataset](https://drive.google.com/file/d/1UUdJTBOI18qEZNIzGF_7rNb52SBJ4TOn/view?usp=sharing)]** <br />
 
+## Training
+
+### Training Data 
+- Download the our Finetune dataset for Commercial advertisement [Commercial Adv. dataset](https://youtube-vos.org/dataset/download/), 
+and [ finetune dataset for Chinese- Enran Email dataset](http://image-net.org/challenges/LSVRC/2015/).
+- Preprocess each datasets according the [readme](data/coco/readme.md) files.
+
+### Download the pre-trained GPT2-chinese model (2.9 G) has 736744960 parameters
+(This model was trained on the 3 million tokens Chineses News and wiki Dataset, around 30G)
+```
+cd /content/drive/'My Drive'/'sinovation'/'project_gpt2_demo'/
+
+from transformers import Trainer, TrainingArguments, AutoModelWithLMHead 
+from modeling_gpt2 import GPT2Config,GPT2LMHeadModel
+
+config = GPT2Config.from_pretrained("/content/drive/My Drive/sinovation/project_gpt2_demo/model")
+model = GPT2LMHeadModel.from_pretrained("/content/drive/My Drive/sinovation/project_gpt2_demo/model", config=config)
+model.num_parameters()
+
+```
+
+### Training email base model
+- [Setup](#environment-setup) your environment
+- From the experiment directory, run
+```
+pip install requirement.txt
+```
+- Finetuning Training takes about 10 hours in our 1 Tesla V100 GPUs in Googlecolab.
+- If you experience out-of-memory errors, you can reduce the batch size.
+- You can view progress on GoogleColab by the sidebar.
+- After training, you can test checkpoints by each step.
+
+
+- Select best model for hyperparametric Beamsearch.
+```
+!python generate.py --model_path email/checkpoint1000/   --search top_kp --content_text "the Chinese text you want to input"
+
+```
+
+### Training solagn model
+- [Setup](#environment-setup) your environment
+- In the experiment file, train with the pretrained  model
+```
+cd /content/drive/'My Drive'/'sinovation'/'project_gpt2_demo'/
+
+from transformers import Trainer, TrainingArguments, AutoModelWithLMHead 
+from modeling_gpt2 import GPT2Config,GPT2LMHeadModel
+
+config = GPT2Config.from_pretrained("/content/drive/My Drive/sinovation/project_gpt2_demo/model")
+model = GPT2LMHeadModel.from_pretrained("/content/drive/My Drive/sinovation/project_gpt2_demo/model", config=config)
+model.num_parameters()
+```
+- Finetuning Training takes about 5 hours in our 1 Tesla V100 GPUs in Googlecolab.
+- If you experience out-of-memory errors, you can reduce the batch size.
+- You can view progress on GoogleColab by the sidebar.
+- After training, you can test checkpoints by each step.
+- Sogan dataset contain around 3,000 wellknown slogans from TV programs and I did manully check and filtering.
+
+
+### Training with bert based model (*unofficial*)
+- [Setup](#environment-setup) your environment
+- From the experiment directory, run
+
+```
+!pip install transformers #==3.1.0
+!pip install boto3
+!pip install urllib3
+from transformers import AutoTokenizer, AutoModelForMaskedLM, BertTokenizer, BertModel, AutoModel, AlbertForMaskedLM
+
+import torch 
+
+tokenizer = BertTokenizer.from_pretrained("clue/roberta_chinese_large")
+model = BertModel.from_pretrained("clue/roberta_chinese_large")
+```
+- We did mask toking experiment with Bert based model comparing to the GPT based model.
+- It is well suit to generate the topical related text comparing to GPT model, but has stronger requirment about the amount of the input mask tokens.
+- 1-3 Mask tokens is well suited.
+
+```some generated results
+outputstring=Masktoken_bert("我x想去国家大剧xxx。希x你也有时x一起过x。")
+分词ID: tensor([[ 101, 2769,  103, 2682, 1343, 1744, 2157, 1920, 1196,  103,  103,  103,
+          511,  102, 2361,  103,  872,  738, 3300, 3198,  103,  671, 6629, 6814,
+          103,  511,  102]])
+generated results:
+我也想去国家大剧院看看。希望你也有时间一起过来。
+```
+
+```
+outputstring=Masktoken_bert("我x想x去x国x家x大x剧xxx。希x你也有时x一起过x。")
+分词ID: tensor([[ 101, 2769,  103, 2682,  103, 1343,  103, 1744,  103, 2157,  103, 1920,
+          103, 1196,  103,  103,  103,  511,  102, 2361,  103,  872,  738, 3300,
+         3198,  103,  671, 6629, 6814,  103,  511,  102]])
+generated results:
+我很想要去美国一家的大的剧院看看。希望你也有时间一起过来。
+```
+
+## License
+Licensed under an MIT license.
+
+
 
