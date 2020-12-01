@@ -10,7 +10,7 @@ Sinovation Ventures (创新工场) was founded in September 2009 by Dr. Kai-Fu L
 Sinovation Ventures (创新工场) are a truly differentiated early stage venture capital fund with $1.2 billion in assets under management, in both USD and RMB funds. As a top domestic China entrepreneurship platform, works closely with founders; provides not just venture financing, but also value-added professional services, including in areas such as UI/UX design, product, marketing, recruiting, legal, government relations, and finance, thereby helping start-up companies grow rapidly in their first couple of years of operation.
 
 # Author List 
-[Qiang Li](https://www.linkedin.com/in/qiang-li-166362143/)\*, [Xinyu Bai](https://www.linkedin.com/in/xinyu-bai-8b495b180/)\*, [Qiyi Ye Bai](https://www.linkedin.com/in/qiyi-ye-36703018/)\*  <br />
+[Qiang Li](https://www.linkedin.com/in/qiang-li-166362143/)\*, [Xinyu Bai](https://www.linkedin.com/in/xinyu-bai-8b495b180/)\*, [Qiyi Ye](https://www.linkedin.com/in/qiyi-ye-36703018/)\*  [Sinovation Ventures AI Institute](https://www.sinovationventures.com/)\* <br />
 
 **[[GPT-3 Research Report](https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/blob/master/Technical%20report%20on%20GPT-3%20and%20its%20applied%20Business%20Scenario.pdf)] [[5 GPT-Chinese Application Video](https://drive.google.com/drive/folders/1Z17fDHR51ICJTBcGROu9beGm03_tAqur?usp=sharing)] [[API Page](https://10.18.103.82/model/)]** <br />
 
@@ -62,3 +62,5 @@ be posted to the frontend through API. The GPT-generated slogan is highly innova
 I also provide here the code for finetuning your own dataset and give some good website for NLP dataset.
 
 **[[GPT-2 writing novel @ Qiang](https://drive.google.com/file/d/12jjrd8-EycdljEzp2q5J2xEsFbmis8rs/view?usp=sharing)] [[how to finetune on your dataset](https://colab.research.google.com/drive/1MxgTJ4hRt4k7SkKB5nblrIm5i_cMGjWB?usp=sharing)] [[how to make you own dataset](https://drive.google.com/file/d/1UUdJTBOI18qEZNIzGF_7rNb52SBJ4TOn/view?usp=sharing)]** <br />
+
+
