@@ -67,7 +67,7 @@ I also provide here the code for finetuning your own dataset and give some good 
 
 ### Training Data 
 - Download the our Finetune dataset for Commercial advertisement [Commercial Adv. dataset](https://youtube-vos.org/dataset/download/), 
-and [ finetune dataset for Chinese- Enran Email dataset](http://image-net.org/challenges/LSVRC/2015/).
+and [ Finetune dataset for Chinese- Enran Email dataset](http://image-net.org/challenges/LSVRC/2015/).
 - Preprocess each datasets according the [readme](data/coco/readme.md) files.
 
 ### Download the pre-trained GPT2-chinese model (2.9 G) has 736744960 parameters
