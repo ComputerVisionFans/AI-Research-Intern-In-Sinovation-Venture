@@ -66,7 +66,7 @@ I also provide here the code for finetuning your own dataset and give some good 
 ## Training
 
 ### Training Data 
-- Download the our Finetune dataset for Commercial advertisement [Commercial Adv. dataset](https://youtube-vos.org/dataset/download/), 
+- Download the our Finetune dataset for Commercial advertisement [Commercial Adv. dataset](https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/tree/master/project_gpt2_demo/Commercial%20Adv.%20dataset), 
 and [ Finetune dataset for Chinese- Enran Email dataset](https://github.com/Johnny-liqiang/AI-Research-Intern-In-Sinovation-Venture/tree/master/project_gpt2_demo/Finetune%20dataset%20for%20Chinese-%20Enran%20Email%20dataset).
 - Preprocess each datasets according the [readme](data/coco/readme.md) files.
 
